@@ -1,4 +1,4 @@
-# Lesson: Python Variables, If-Else Statements, For Loops, and Lists
+# Lesson 1: Python Variables, If-Else Statements, For Loops, and Lists
 
 # 1. Variables
 # Variables are used to store information that can be referenced and manipulated in a program.
@@ -53,5 +53,5 @@ for fruit in fruits:  # For each fruit in the fruits list
 for i in range(5):  # This will loop 5 times (0 to 4)
     print("This is loop iteration number", i)  # This will print the current iteration number
 
-# That's it for this basic lesson! 
+# That's it for lesson 1! 
 # You have learned about variables, if-else statements, lists, and for loops in Python.
