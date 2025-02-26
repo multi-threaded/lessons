@@ -1,0 +1,14 @@
+Coding Challenge: Fruit Selector
+
+Objective: Create a simple program that allows a user to select a fruit from a predefined
+           list and check if it is available. If the fruit is available, print a message
+           indicating that the fruit is available; otherwise, print a message indicating
+           that it is not available.
+
+Instructions:
+    1. Create a list of fruits that includes at least five different fruits (e.g., "apple", "banana", "cherry", "orange", "grape").
+    2. Ask the user to input the name of a fruit they want to check.
+    3. Use an if-else statement to check if the fruit is in the list:
+        - If the fruit is in the list, print a message saying that the fruit is available.
+        - If the fruit is not in the list, print a message saying that the fruit is not available.
+    4. Use a for loop to print each fruit in the list, prefixed with "Available fruit: ".

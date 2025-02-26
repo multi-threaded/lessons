@@ -1,0 +1,15 @@
+Coding Challenge: Student Grades Tracker
+
+Objective: Create a simple program that allows a user to manage student grades using functions, dictionaries, and while loops.
+
+Instructions:
+    1. Create a function called add_student that takes a student's name and grade as
+       parameters and adds them to a dictionary called grades. The dictionary should
+       have student names as keys and their grades as values.
+    2. Create a function called print_grades that prints all the students and their grades in a formatted way.
+    3. Create a function called update_grade that takes a student's name and a new grade as parameters and updates the student's grade in the dictionary.
+    4. Use a while loop to create a simple menu that allows the user to:
+        - Add a student and their grade
+        - Print all student grades
+        - Update a student's grade
+        - Exit the program

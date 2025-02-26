@@ -1,0 +1,29 @@
+Coding Challenge: Pet Management System
+
+Objective: Create a simple program that allows a user to manage pet information using classes, handle exceptions, and perform file I/O operations.
+
+Instructions:
+    1. Create a Class:
+        - Define a class called Pet that has the following attributes:
+            - name (string)
+            - age (integer)
+            - species (string)
+    2. Include the following methods:
+        - __init__: A constructor to initialize the attributes.
+        - bark: A method that prints a message indicating the pet's name and a sound it makes (e.g., "Woof!" for dogs, "Meow!" for cats).
+        - get_human_years: A method that returns the pet's age in human years (for simplicity, assume 1 pet year is equivalent to 7 human years).
+    3. User Interaction:
+        - Create a function called add_pet that prompts the user to enter the pet's name, age, and species.
+          This function should create an instance of the Pet class and return it.
+    4. File I/O:
+        - Create a function called save_pet_to_file that takes a Pet object and writes its information to a file called pets.txt.
+        - Create a function called load_pets_from_file that reads the pet information from pets.txt and returns a list of Pet objects.
+    5. Exception Handling:
+        - Use exception handling to manage errors when converting the age input to an integer.
+          If the user enters an invalid age, prompt them to enter a valid number.
+    6. Main Program Loop:
+        - Use a while loop to create a simple menu that allows the user to:
+        - Add a pet
+        - Save the pet to a file
+        - Load pets from the file and display their information
+        - Exit the program
